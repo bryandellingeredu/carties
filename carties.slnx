@@ -1,2 +1,16 @@
 <Solution>
+  <Folder Name="/specs/">
+    <File Path="specs/.DS_Store" />
+    <File Path="specs/architecture.pdf" />
+    <File Path="specs/auction-service.md" />
+    <File Path="specs/bid-service.md" />
+    <File Path="specs/gateway-service.md" />
+    <File Path="specs/identity-service.md" />
+    <File Path="specs/notification-service.md" />
+    <File Path="specs/search-service.md" />
+    <File Path="specs/web-app.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/AuctionService/AuctionService.csproj" />
+  </Folder>
 </Solution>
