@@ -1,6 +1,20 @@
 {
     "configurations": [
         {
+            "name": "Next.js",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "npm run dev",
+            "cwd": "${workspaceFolder}/frontend/web-app",
+            "serverReadyAction": {
+                "action": "debugWithChrome",
+                "pattern": "Ready in",
+                "uriFormat": "http://localhost:3000/",
+                "webRoot": "${workspaceFolder}/frontend/web-app",
+                "killOnServerStop": true
+            }
+        },
+        {
             "name": "Containers: .NET Launch",
             "type": "docker",
             "request": "launch",

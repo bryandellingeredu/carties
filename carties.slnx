@@ -1,4 +1,26 @@
 <Solution>
+  <Folder Name="/frontend/web-app/">
+    <File Path="frontend/web-app/.gitignore" />
+    <File Path="frontend/web-app/eslint.config.mjs" />
+    <File Path="frontend/web-app/next.config.ts" />
+    <File Path="frontend/web-app/package-lock.json" />
+    <File Path="frontend/web-app/package.json" />
+    <File Path="frontend/web-app/README.md" />
+    <File Path="frontend/web-app/tsconfig.json" />
+  </Folder>
+  <Folder Name="/frontend/web-app/public/">
+    <File Path="frontend/web-app/public/file.svg" />
+    <File Path="frontend/web-app/public/globe.svg" />
+    <File Path="frontend/web-app/public/next.svg" />
+    <File Path="frontend/web-app/public/vercel.svg" />
+    <File Path="frontend/web-app/public/window.svg" />
+  </Folder>
+  <Folder Name="/frontend/web-app/src/app/">
+    <File Path="frontend/web-app/src/app/favicon.ico" />
+    <File Path="frontend/web-app/src/app/globals.css" />
+    <File Path="frontend/web-app/src/app/layout.tsx" />
+    <File Path="frontend/web-app/src/app/page.tsx" />
+  </Folder>
   <Folder Name="/specs/">
     <File Path="specs/.DS_Store" />
     <File Path="specs/architecture.pdf" />
